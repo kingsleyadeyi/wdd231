@@ -1,0 +1,28 @@
+{
+  "familyName": "Adeyi",
+  "moveInDate": "2025-01-15",
+  "numberOfPeople": 4,
+  "visitedByBishopric": true,
+  "familyMembers": [
+    {
+      "name": "Kingsley Adeyi",
+      "gender": "Male",
+      "birthdate": "1995-06-10"
+    },
+    {
+      "name": "Sarah Adeyi",
+      "gender": "Female",
+      "birthdate": "1997-08-22"
+    },
+    {
+      "name": "Daniel Adeyi",
+      "gender": "Male",
+      "birthdate": "2020-03-14"
+    },
+    {
+      "name": "Grace Adeyi",
+      "gender": "Female",
+      "birthdate": "2022-11-05"
+    }
+  ]
+}

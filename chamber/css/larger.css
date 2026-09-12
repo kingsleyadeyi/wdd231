@@ -1,0 +1,50 @@
+/* Larger screen styles */
+
+@media (min-width: 768px) {
+
+    .header-content {
+        padding: 1rem 2rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+
+    nav a {
+        padding: 0.75rem 1rem;
+    }
+
+    .grid-view {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .list-view section {
+        grid-template-columns: 2fr 2fr 1fr 1fr;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .grid-view {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main {
+        padding: 2rem;
+    }
+}
