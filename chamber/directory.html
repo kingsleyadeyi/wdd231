@@ -5,28 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Lagos Chamber of Commerce | Business Directory</title>
-    <meta name="description" content="Explore businesses and services in Lagos through the Lagos Chamber of Commerce business directory.">
-    <meta name="author" content="YOUR FULL NAME">
 
+    <meta name="description" content="Explore businesses and services in Lagos through the Lagos Chamber of Commerce business directory.">
+
+    <meta name="author" content="Kingsley Adeyi">
+
+    <!-- Open Graph -->
     <meta property="og:title" content="Lagos Chamber of Commerce | Business Directory">
     <meta property="og:description" content="Explore businesses and services in Lagos through the Lagos Chamber of Commerce business directory.">
-    <meta property="og:image" content="https://kingsleyadeyi.github.io/wdd231/chamber/images/logo.svg">
+    <meta property="og:image" content="https://kingsleyadeyi.github.io/wdd231/chamber/images/business1.jpg">
     <meta property="og:url" content="https://kingsleyadeyi.github.io/wdd231/chamber/directory.html">
 
-    <link rel="icon" href="images/logo.svg">
+    <!-- Favicon -->
+    <link rel="icon" href="images/business1.jpg">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/larger.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <script src="js/directory.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/directory.js" defer></script>
 </head>
 
 <body>
 
 <header>
     <div class="header-content">
-            <a href="directory.html" class="logo-link">
+
+        <a href="directory.html" class="logo-link">
             <span class="logo-symbol">LCC</span>
             <span>Lagos Chamber<br>of Commerce</span>
         </a>
@@ -38,12 +50,13 @@
             <a href="directory.html" class="active">Directory</a>
             <a href="join.html">Join</a>
             <a href="discover.html">Discover</a>
-            <button id="darkMode" aria-label="Toggle dark mode">◐</button>
         </nav>
+
     </div>
 </header>
 
 <main>
+
     <h1>Business Directory</h1>
 
     <div class="view-buttons">
@@ -52,9 +65,11 @@
     </div>
 
     <div id="members" class="grid-view"></div>
+
 </main>
 
 <footer>
+
     <div class="footer-contact">
         <strong>Lagos Chamber of Commerce</strong>
         <p>Lagos, Nigeria</p>
@@ -67,6 +82,7 @@
         <p>© <span id="currentyear"></span> Lagos Chamber of Commerce</p>
         <p>Last Modification: <span id="lastModified"></span></p>
     </div>
+
 </footer>
 
 </body>
